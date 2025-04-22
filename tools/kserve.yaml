@@ -1,0 +1,31 @@
+identity:
+  name: kserve
+  author: creaddiscans
+  label:
+    en_US: kserve
+description:
+  human:
+    en_US: A tool to access kserve.
+  llm: A tool to access kserve.
+parameters:
+  - name: endpoint
+    type: string
+    required: true
+    label:
+      en_US: Endpoint
+    human_description:
+      en_US: Endpoint.
+    llm_description: A tool to access kserve.
+    form: form
+  - name: params
+    type: object
+    required: true
+    label:
+      en_US: params
+    human_description:
+      en_US: params.
+    llm_description: A tool to access kserve.
+    form: form
+extra:
+  python:
+    source: tools/kserve.py
