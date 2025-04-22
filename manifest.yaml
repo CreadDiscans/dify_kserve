@@ -1,4 +1,4 @@
-version: 0.0.1
+version: 0.0.3
 type: plugin
 author: creaddiscans
 name: kserve
@@ -22,7 +22,7 @@ plugins:
   tools:
     - provider/kserve.yaml
 meta:
-  version: 0.0.1
+  version: 0.0.3
   arch:
     - amd64
     - arm64
