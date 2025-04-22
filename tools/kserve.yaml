@@ -12,18 +12,31 @@ description:
     pt_BR: access kserve
   llm: access kserve
 parameters:
-  - name: query
+  - name: endpoint
     type: string
     required: true
     label:
-      en_US: Query string
-      zh_Hans: 查询语句
-      pt_BR: Query string
+      en_US: endpoint
+      zh_Hans: endpoint
+      pt_BR: endpoint
     human_description:
-      en_US: access kserve
-      zh_Hans: access kserve
-      pt_BR: access kserve
-    llm_description: access kserve
+      en_US: endpoint
+      zh_Hans: endpoint
+      pt_BR: endpoint
+    llm_description: endpoint
+    form: llm
+  - name: params
+    type: string
+    required: true
+    label:
+      en_US: parameters
+      zh_Hans: parameters
+      pt_BR: parameters
+    human_description:
+      en_US: parameters
+      zh_Hans: parameters
+      pt_BR: parameters
+    llm_description: parameters
     form: llm
 extra:
   python:
