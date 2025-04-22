@@ -3,10 +3,13 @@ identity:
   name: kserve
   label:
     en_US: kserve
+    zh_Hans: kserve
+    pt_BR: kserve
   description:
-    en_US: Tools for kserve
-  icon: minio.svg
-
+    en_US: access kserve
+    zh_Hans: access kserve
+    pt_BR: access kserve
+  icon: icon.svg
 tools:
   - tools/kserve.yaml
 extra:

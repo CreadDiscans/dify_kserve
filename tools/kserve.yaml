@@ -3,29 +3,28 @@ identity:
   author: creaddiscans
   label:
     en_US: kserve
+    zh_Hans: kserve
+    pt_BR: kserve
 description:
   human:
-    en_US: A tool to access kserve.
-  llm: A tool to access kserve.
+    en_US: access kserve
+    zh_Hans: access kserve
+    pt_BR: access kserve
+  llm: access kserve
 parameters:
-  - name: endpoint
+  - name: query
     type: string
     required: true
     label:
-      en_US: Endpoint
+      en_US: Query string
+      zh_Hans: 查询语句
+      pt_BR: Query string
     human_description:
-      en_US: Endpoint.
-    llm_description: A tool to access kserve.
-    form: form
-  - name: params
-    type: object
-    required: true
-    label:
-      en_US: params
-    human_description:
-      en_US: params.
-    llm_description: A tool to access kserve.
-    form: form
+      en_US: access kserve
+      zh_Hans: access kserve
+      pt_BR: access kserve
+    llm_description: access kserve
+    form: llm
 extra:
   python:
     source: tools/kserve.py

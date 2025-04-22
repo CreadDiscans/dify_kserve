@@ -1,24 +1,23 @@
-version: 0.0.3
+version: 0.0.1
 type: plugin
 author: creaddiscans
 name: kserve
 label:
   en_US: kserve
+  ja_JP: kserve
+  zh_Hans: kserve
+  pt_BR: kserve
 description:
-  en_US: Tools for access kserve
-icon: minio.svg
+  en_US: access kserve
+  ja_JP: access kserve
+  zh_Hans: access kserve
+  pt_BR: access kserve
+icon: icon.svg
 resource:
   memory: 268435456
   permission:
     tool:
       enabled: true
-    endpoint:
-      enabled: true
-    app:
-      enabled: true
-    storage:
-      enabled: true
-      size: 1048576
 plugins:
   tools:
     - provider/kserve.yaml
@@ -31,6 +30,6 @@ meta:
     language: python
     version: "3.12"
     entrypoint: main
-created_at: 2025-03-19T14:33:50.288738+08:00
+created_at: 2025-04-22T14:22:52.212188+09:00
 privacy: PRIVACY.md
 verified: false
